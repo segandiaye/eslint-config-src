@@ -1,7 +1,8 @@
 eslint-config-snd
 ==================
 
-[![pipeline status](https://gitlab.dev.snd.fr/common/eslint-config-snd/badges/master/pipeline.svg)](https://gitlab.dev.snd.fr/common/eslint-config-snd/-/commits/master)
+[![NPM version](http://img.shields.io/npm/v/eslint-config-snd.svg)](https://www.npmjs.org/package/eslint-config-snd)
+[![Build Status](https://travis-ci.org/segandiaye/eslint-config-snd.svg?branch=master)](https://travis-ci.org/segandiaye/eslint-config-snd)
 
 Toutes les configurations centralisées pour ESLint.
 

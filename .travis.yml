@@ -1,0 +1,12 @@
+language: node_js
+
+node_js:
+  - "stable"
+  - "lts/*"
+
+# Travis CI uses "npm ci" by default because there is a package-lock.json file
+install:
+ - npm ci
+
+script:
+  - npm run test:ci

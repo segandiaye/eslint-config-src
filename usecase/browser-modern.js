@@ -1,5 +1,5 @@
 module.exports = {
-    extends: ['core/usecase/lib/common','core/usecase/lib/es2015'],
+    extends: ['src/usecase/lib/common','src/usecase/lib/es2015'],
     parserOptions: {
         ecmaVersion: 2015,
         sourceType: 'module'

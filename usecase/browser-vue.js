@@ -1,7 +1,7 @@
 module.exports = {
-    extends: ['core/usecase/lib/common',
-        'core/usecase/lib/es2015', 'core/usecase/lib/es2017',
-        'core/usecase/lib/vue'],
+    extends: ['src/usecase/lib/common',
+        'src/usecase/lib/es2015', 'src/usecase/lib/es2017',
+        'src/usecase/lib/vue'],
     parser: 'vue-eslint-parser',
     parserOptions: {
         parser: 'babel-eslint',

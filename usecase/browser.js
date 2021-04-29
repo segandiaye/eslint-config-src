@@ -1,5 +1,5 @@
 module.exports = {
-    extends: 'core/usecase/lib/common',
+    extends: 'src/usecase/lib/common',
     env: {
         browser: true,
         jquery: true,

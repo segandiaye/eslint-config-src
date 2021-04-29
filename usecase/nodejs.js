@@ -1,6 +1,6 @@
 module.exports = {
-    extends: ['core/usecase/lib/common',
-        'core/usecase/lib/es2015', 'core/usecase/lib/es2017'],
+    extends: ['src/usecase/lib/common',
+        'src/usecase/lib/es2015', 'src/usecase/lib/es2017'],
     parserOptions: {
         ecmaVersion: 2019,
         sourceType: 'script'

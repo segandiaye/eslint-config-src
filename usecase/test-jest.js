@@ -1,5 +1,5 @@
 module.exports = {
-    extends: 'core/usecase/nodejs',
+    extends: 'src/usecase/nodejs',
     env: {
         jest: true
     }

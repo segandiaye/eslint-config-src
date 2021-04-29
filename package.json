@@ -8,8 +8,7 @@
     "eslintconfig"
   ],
   "scripts": {
-    "posttest": "npm run lint",
-    "test:ci": "npm test",
+    "test:ci": "npm run lint",
     "lint": "eslint --ignore-pattern='!.*.js' .",
     "lint:fix": "eslint --fix --ignore-pattern='!.*.js' ."
   },

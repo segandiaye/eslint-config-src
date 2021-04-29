@@ -1,5 +1,5 @@
 module.exports = {
-    extends: 'snd/usecase/nodejs',
+    extends: 'core/usecase/nodejs',
     env: {
         mocha: true
     }

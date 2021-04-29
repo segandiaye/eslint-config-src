@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-snd",
+  "name": "eslint-config-core",
   "version": "1.0.0",
   "description": "All centralized configurations for ESLint",
   "main": "index.js",
@@ -24,12 +24,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/segandiaye/eslint-config-snd.git"
+    "url": "git+https://github.com/segandiaye/eslint-config-core.git"
   },
   "author": "NDIAYE Sega «segadembandiaye2007@gmail.com»",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/segandiaye/eslint-config-snd/issues"
+    "url": "https://github.com/segandiaye/eslint-config-core/issues"
   },
-  "homepage": "https://github.com/segandiaye/eslint-config-snd#readme"
+  "homepage": "https://github.com/segandiaye/eslint-config-core#readme"
 }

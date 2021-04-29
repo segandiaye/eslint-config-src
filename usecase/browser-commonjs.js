@@ -1,5 +1,5 @@
 module.exports = {
-    extends: 'snd/usecase/lib/common',
+    extends: 'core/usecase/lib/common',
     env: {
         browser: true,
         commonjs: true

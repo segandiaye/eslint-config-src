@@ -43,7 +43,7 @@ You have to add an `.eslintrc.js` file at the root of your project with the foll
 
 ```js
 module.exports = {
-    extends: 'usecases/usecase/nodejs'
+    extends: 'src/usecase/nodejs'
 }
 ```
 
@@ -51,7 +51,7 @@ If you want to use it in `Jest tests` replace the `.eslintrc.js` file content wi
 
 ```js
 module.exports = {
-    extends: 'usecases/usecase/test-jest'
+    extends: 'src/usecase/test-jest'
 }
 ```
 
@@ -59,6 +59,6 @@ If you want to use it in `Mocha tests` replace `.eslintrc.js` file content with 
 
 ```js
 module.exports = {
-    extends: 'usecases/usecase/test-mocha'
+    extends: 'src/usecase/test-mocha'
 }
 ```

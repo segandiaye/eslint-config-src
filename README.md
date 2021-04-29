@@ -31,11 +31,34 @@ JavaScript at core :
 * ([`core/usecase/test-mocha`](./usecase/test-mocha.js)):
   Tests with Mocha
 
-All these use cases have their own `env` and `rules`, while inheriting [common properties
-while inheriting [common properties](./usecase/lib/common.js).
+### Installation
 
-**Note**:
-You must respect the `peerDependencies` specified in this NPM package (at the
-the `package.json` file), in particular at the level of the versions. If the
-are not respected there will be `WARN` during the `npm
-install` and the package will work imperfectly, if at all.
+```sh
+# Using npm
+npm install eslint-config-core --save-dev
+```
+### Example
+
+You have to add an `.eslintrc.js` file at the root of your project with the following content:
+
+```js
+module.exports = {
+    extends: 'usecases/usecase/nodejs'
+}
+```
+
+If you want to use it in `Jest tests` replace the `.eslintrc.js` file content with :
+
+```js
+module.exports = {
+    extends: 'usecases/usecase/test-jest'
+}
+```
+
+If you want to use it in `Mocha tests` replace `.eslintrc.js` file content with :
+
+```js
+module.exports = {
+    extends: 'usecases/usecase/test-mocha'
+}
+```

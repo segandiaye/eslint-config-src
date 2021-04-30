@@ -2,7 +2,7 @@ eslint-config-src
 ==================
 
 [![NPM version](http://img.shields.io/npm/v/eslint-config-src.svg)](https://www.npmjs.org/package/eslint-config-src)
-[![Build Status](https://travis-ci.org/segandiaye/eslint-config-src.svg?branch=master)](https://travis-ci.org/segandiaye/eslint-config-src)
+[![Build Status](https://travis-ci.org/segandiaye/eslint-config-src.svg?branch=main)](https://travis-ci.org/segandiaye/eslint-config-src)
 
 All centralized configurations for ESLint.
 
